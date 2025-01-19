@@ -1,0 +1,47 @@
+* {
+    font-family: "Courier Prime", serif;
+}
+
+/* HEADER */
+
+#logo {
+    font-weight: 600;
+    font-size: 1.2rem;
+    border: 2px solid black;
+    display: inline;
+    padding: 5px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+a {
+    color: black;
+}
+
+/* MAIN */
+
+.home-image {
+    width: 60%;
+}
+
+.portfolio-image {
+    width: 50%;
+}
+
+h1 {
+    margin-bottom: 0.4rem;
+}
+
+.contact-info {
+    margin: 0.3rem;
+}
+
+/* FOOTER */
+
+footer {
+    margin-top: 2rem;
+    border-top: 2px solid black;
+}
