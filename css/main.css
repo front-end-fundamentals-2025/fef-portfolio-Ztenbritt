@@ -72,11 +72,29 @@ figure {
 
 .category-image {
     width: 100%;
+    border-radius: 0.7rem;
 }
 
 h1 {
     margin-bottom: 0.4rem;
     color: #abb3f2;
+    animation-name: shake;
+    animation-duration: 1.5s;
+    animation-timing-function:cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+@keyframes shake {
+    10% {
+        transform:scaleY(70%);
+    }
+
+    15% {
+        transform:scaleY(120%);
+    }
+
+    40% {
+        transform:translateY(-10px);
+    }
 }
 
 .contact-info {
